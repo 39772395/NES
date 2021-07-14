@@ -30,8 +30,7 @@ body {
 
 .contenedor {
 	width: 100%;
-	max-width: 1000px;
-	margin: auto;
+	margin: 5px;
 	overflow: hidden;
 }
 
@@ -55,17 +54,19 @@ header {
 	display: inline;
 }
 .po {
+	text-align: center;
 	width: 130%;
 	float:inline-start;
 	margin-right: 10px;
 }
 .op {
+	text-align: right;
 	font-size: 18px;
-	margin: 10px;
+	margin: 0px;
  	display: inline-block;
  	text-decoration: none;
  	color: #1d4f90;
- 	padding: 5px;
+ 	padding: 11px;
  	
  }
  .op:hover{
@@ -73,10 +74,11 @@ header {
  	border-bottom: 5px solid #f78c26;
  }
 .opciones {
-	float:right;
+	text-align:center;
 }
 .sub{
-	float:right;
+	
+	text-align:center;
 	color: #f78c26;
 	font-family: Impact,'Arial Narrow Bold', sans-serif;
 	font-size: 40px;
@@ -111,7 +113,9 @@ header {
 						<video src="videos/preregistro.mp4" width="350" height="550" autoplay muted></video>
 					</div>
 					<div class="descripcion col-md-7">
-						<h2 class="sub">1. PREREGISTRO</h2>
+						<h2 class="sub" aling=>1. PREREGISTRO</h2>
+						<br>
+						<br>
 						<p class="opciones">
 							<br>
 							<b class="Q">1.</b>	Nombre completo empezando por apellidos

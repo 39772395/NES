@@ -30,7 +30,7 @@ body {
 
 .contenedor {
 	width: 100%;
-	max-width: 1000px;
+
 	margin: auto;
 	overflow: hidden;
 }
@@ -55,11 +55,13 @@ header {
 	display: inline;
 }
 .po {
+	text-align:center;
 	width: 130%;
 	float:inline-start;
 	margin-right: 10px;
 }
 .op {
+	text-align:right;
 	font-size: 18px;
 	margin: 10px;
  	display: inline-block;
@@ -73,10 +75,10 @@ header {
  	border-bottom: 5px solid #f78c26;
  }
 .opciones {
-	float:right;
+	text-align:center;
 }
 .sub{
-	float:right;
+	text-align:center;
 	color: #f78c26;
 	font-family: Impact,'Arial Narrow Bold', sans-serif;
 	font-size: 40px;

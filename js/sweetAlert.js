@@ -1,0 +1,3 @@
+Swal.fire({
+    title:"EL NUMERO DE DOCUMENTO NO SE ENCUENTRA REGISTRADO!"
+});

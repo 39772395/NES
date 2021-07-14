@@ -30,7 +30,6 @@ body {
 
 .contenedor {
 	width: 100%;
-	max-width: 1000px;
 	margin: auto;
 	overflow: hidden;
 }
@@ -40,7 +39,7 @@ header {
 	overflow: hidden;
 }
 .web{
-	width: 80%;
+		width: 80%;
 	display: inline-block;
 
 }
@@ -55,6 +54,7 @@ header {
 	display: inline;
 }
 .po {
+	text-align: center;
 	width: 130%;
 	float:inline-start;
 	margin-right: 10px;
@@ -66,6 +66,7 @@ header {
  	text-decoration: none;
  	color: #1d4f90;
  	padding: 5px;
+	 text-align: right;
  	
  }
  .op:hover{
@@ -73,10 +74,10 @@ header {
  	border-bottom: 5px solid #f78c26;
  }
 .opciones {
-	float:right;
+	text-align:center;
 }
 .sub{
-	float:right;
+	text-align:center;
 	color: #f78c26;
 	font-family: Impact,'Arial Narrow Bold', sans-serif;
 	font-size: 40px;
@@ -112,6 +113,8 @@ header {
 					</div>
 					<div class="descripcion col-md-7">
 						<h2 class="sub">2. ACTIVAR CUENTA</h2>
+						<br>
+						<br>
 						<p class="opciones">
 							<br>
 							<b class="Q">1.</b>	Seleccionar correo de activar cuenta
